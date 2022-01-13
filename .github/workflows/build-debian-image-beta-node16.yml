@@ -5,6 +5,8 @@ on:
   release:
     types:
       - prereleased
+  push:
+    branches: [ main ]
 
 jobs:
   build-beta-node16-image:
