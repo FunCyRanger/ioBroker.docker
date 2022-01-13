@@ -1,4 +1,4 @@
-FROM debian:bullseye-slim
+FROM alpine:latest
 
 LABEL org.opencontainers.image.title="Official ioBroker Docker Image" \
       org.opencontainers.image.description="Officical Docker image for ioBroker smarthome software (https://www.iobroker.net)" \
