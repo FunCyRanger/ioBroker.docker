@@ -10,7 +10,7 @@ LABEL org.opencontainers.image.title="Official ioBroker Docker Image" \
       org.opencontainers.image.version="${VERSION}" \
       org.opencontainers.image.created="${DATI}"
 
-ENV DEBIAN_FRONTEND noninteractive
+# ENV DEBIAN_FRONTEND noninteractive
 
 # Install prerequisites (including node) and generating locales
 RUN apt-get update && apt-get install -y \
